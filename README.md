@@ -16,6 +16,6 @@ bash conda.sh
 conda activate MMP_OV_VidVRD
 ```
 ## Train & eval for VidVRD dataset
-
+**<font size=5>Data</font>**
 **Annotations**
-The frame-annotations we used can be downloaded from [link](https://xdshang.github.io/docs/imagenet-vidvrd.html)
+The frame-annotations we used can be downloaded from [link](https://xdshang.github.io/docs/imagenet-vidvrd.html).
