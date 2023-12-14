@@ -8,4 +8,5 @@ This is the implementation for the paper "Multi-modal Prompting for Open-vocabul
 - pillow
 - ftfy
 - regex
+  
 You can also run the following commands to prepare the conda environment.
