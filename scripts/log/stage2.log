@@ -1,0 +1,213 @@
+[2023-07-30 14:07:09,542][train.py] Experiment Config: Namespace(batch_size=1, batch_size_eval=32, bbox_feat=True, ckpt_path='', clip_emb_dim=512, clip_feat=True, clip_hidden_dim=1024, clip_len=30, clip_top_n=20, dataset='vidvrd', dropout=0.5, int_loss_weight=0.1, intern_feat=False, lan_emb_dim=256, lan_feat=False, lr=0.001, mask_emb_dim=256, mask_feat=False, max_epoch=30, max_per_video=200, momentum=0.9, mot_emb_dim=256, mot_feat=True, num_layers=0, obj_loss_weight=0.2, print_freq=10, ps='2stage_ours_8_8_2', ptm_mode='vision_text', rel_emb_dim=256, rel_feat=True, resume=False, src_split='base', start_epoch=0, temp_model='none', temp_out_dim=512, test_traj='meta', tgt_split='all', train_traj='gt', use_prior=False, use_unlabeld_pair=False, v2d_emb_dim=512, v2d_feat=False, v3d_emb_dim=512, v3d_feat=False, val_traj='gt', weight_decay=0.0001)
+[2023-07-30 14:07:09,542][train.py] Preparing data from vidvrd...
+[2023-07-30 14:07:19,586][train.py] Training data from vidvrd...
+[2023-07-30 14:22:21,937][train.py] Epoch: [1] 	 LR: [0.001] 	 Avg Train Loss:  0.0100
+[2023-07-30 14:24:21,527][train.py] SGDet and All split     | mAP:26.05, Recall@50:16.55, Recall@100:19.48
+[2023-07-30 14:26:19,957][train.py] SGDet and Novel split   | mAP:13.27, Recall@50:16.20, Recall@100:18.68
+[2023-07-30 14:27:23,756][train.py] PredCls and All split   | mAP:37.00, Recall@50:29.84, Recall@100:37.08
+[2023-07-30 14:28:26,342][train.py] PredCls and Novel split | mAP:19.40, Recall@50:30.25, Recall@100:38.18
+[2023-07-30 14:28:26,342][train.py] Mean mAP: 23.93152284467863, Best Mean mAP: 0
+[2023-07-30 14:28:26,521][train.py] Training data from vidvrd...
+[2023-07-30 14:43:30,368][train.py] Epoch: [2] 	 LR: [0.001] 	 Avg Train Loss:  0.0088
+[2023-07-30 14:45:30,664][train.py] SGDet and All split     | mAP:26.30, Recall@50:16.75, Recall@100:19.54
+[2023-07-30 14:47:29,205][train.py] SGDet and Novel split   | mAP:13.97, Recall@50:16.20, Recall@100:18.84
+[2023-07-30 14:48:33,029][train.py] PredCls and All split   | mAP:36.49, Recall@50:29.68, Recall@100:36.98
+[2023-07-30 14:49:35,551][train.py] PredCls and Novel split | mAP:19.31, Recall@50:30.25, Recall@100:37.85
+[2023-07-30 14:49:35,552][train.py] Mean mAP: 24.016911228478588, Best Mean mAP: 23.93152284467863
+[2023-07-30 14:49:37,013][train.py] Training data from vidvrd...
+[2023-07-30 15:04:40,477][train.py] Epoch: [3] 	 LR: [0.001] 	 Avg Train Loss:  0.0090
+[2023-07-30 15:06:40,130][train.py] SGDet and All split     | mAP:26.00, Recall@50:16.65, Recall@100:19.59
+[2023-07-30 15:08:39,368][train.py] SGDet and Novel split   | mAP:14.32, Recall@50:15.87, Recall@100:18.35
+[2023-07-30 15:09:43,214][train.py] PredCls and All split   | mAP:36.65, Recall@50:30.24, Recall@100:37.19
+[2023-07-30 15:10:45,872][train.py] PredCls and Novel split | mAP:20.25, Recall@50:28.93, Recall@100:37.02
+[2023-07-30 15:10:45,872][train.py] Mean mAP: 24.30447319277858, Best Mean mAP: 24.016911228478588
+[2023-07-30 15:10:47,419][train.py] Training data from vidvrd...
+[2023-07-30 15:25:51,110][train.py] Epoch: [4] 	 LR: [0.001] 	 Avg Train Loss:  0.0081
+[2023-07-30 15:27:50,767][train.py] SGDet and All split     | mAP:26.39, Recall@50:16.69, Recall@100:19.71
+[2023-07-30 15:29:49,282][train.py] SGDet and Novel split   | mAP:15.04, Recall@50:15.87, Recall@100:18.51
+[2023-07-30 15:30:52,944][train.py] PredCls and All split   | mAP:36.99, Recall@50:30.16, Recall@100:37.25
+[2023-07-30 15:31:55,459][train.py] PredCls and Novel split | mAP:20.65, Recall@50:28.76, Recall@100:36.69
+[2023-07-30 15:31:55,459][train.py] Mean mAP: 24.766457159372486, Best Mean mAP: 24.30447319277858
+[2023-07-30 15:31:57,471][train.py] Training data from vidvrd...
+[2023-07-30 15:47:01,184][train.py] Epoch: [5] 	 LR: [0.001] 	 Avg Train Loss:  0.0082
+[2023-07-30 15:49:00,843][train.py] SGDet and All split     | mAP:26.22, Recall@50:16.63, Recall@100:19.65
+[2023-07-30 15:50:59,330][train.py] SGDet and Novel split   | mAP:15.32, Recall@50:16.69, Recall@100:18.84
+[2023-07-30 15:52:03,841][train.py] PredCls and All split   | mAP:37.29, Recall@50:30.26, Recall@100:37.60
+[2023-07-30 15:53:06,462][train.py] PredCls and Novel split | mAP:21.79, Recall@50:30.41, Recall@100:37.69
+[2023-07-30 15:53:06,463][train.py] Mean mAP: 25.153597966889816, Best Mean mAP: 24.766457159372486
+[2023-07-30 15:53:07,932][train.py] Training data from vidvrd...
+[2023-07-30 16:08:11,601][train.py] Epoch: [6] 	 LR: [0.001] 	 Avg Train Loss:  0.0080
+[2023-07-30 16:10:11,290][train.py] SGDet and All split     | mAP:26.46, Recall@50:16.71, Recall@100:19.57
+[2023-07-30 16:12:09,704][train.py] SGDet and Novel split   | mAP:15.56, Recall@50:16.69, Recall@100:18.68
+[2023-07-30 16:13:13,590][train.py] PredCls and All split   | mAP:36.92, Recall@50:30.11, Recall@100:37.70
+[2023-07-30 16:14:16,874][train.py] PredCls and Novel split | mAP:20.69, Recall@50:29.75, Recall@100:37.36
+[2023-07-30 16:14:16,874][train.py] Mean mAP: 24.90708311469847, Best Mean mAP: 25.153597966889816
+[2023-07-30 16:14:16,875][train.py] Training data from vidvrd...
+[2023-07-30 16:29:20,599][train.py] Epoch: [7] 	 LR: [0.001] 	 Avg Train Loss:  0.0083
+[2023-07-30 16:31:20,142][train.py] SGDet and All split     | mAP:26.69, Recall@50:16.53, Recall@100:19.65
+[2023-07-30 16:33:18,656][train.py] SGDet and Novel split   | mAP:15.24, Recall@50:16.03, Recall@100:18.51
+[2023-07-30 16:34:22,330][train.py] PredCls and All split   | mAP:37.20, Recall@50:30.09, Recall@100:37.25
+[2023-07-30 16:35:24,967][train.py] PredCls and Novel split | mAP:19.87, Recall@50:28.43, Recall@100:37.02
+[2023-07-30 16:35:24,967][train.py] Mean mAP: 24.748713386167953, Best Mean mAP: 25.153597966889816
+[2023-07-30 16:35:24,968][train.py] Training data from vidvrd...
+[2023-07-30 16:50:28,844][train.py] Epoch: [8] 	 LR: [0.001] 	 Avg Train Loss:  0.0082
+[2023-07-30 16:52:28,573][train.py] SGDet and All split     | mAP:26.99, Recall@50:16.90, Recall@100:19.54
+[2023-07-30 16:54:27,986][train.py] SGDet and Novel split   | mAP:14.82, Recall@50:15.87, Recall@100:18.35
+[2023-07-30 16:55:31,680][train.py] PredCls and All split   | mAP:37.35, Recall@50:30.34, Recall@100:37.31
+[2023-07-30 16:56:34,255][train.py] PredCls and Novel split | mAP:19.74, Recall@50:28.60, Recall@100:37.02
+[2023-07-30 16:56:34,255][train.py] Mean mAP: 24.723244060466023, Best Mean mAP: 25.153597966889816
+[2023-07-30 16:56:34,256][train.py] Training data from vidvrd...
+[2023-07-30 17:11:36,845][train.py] Epoch: [9] 	 LR: [0.001] 	 Avg Train Loss:  0.0076
+[2023-07-30 17:13:36,386][train.py] SGDet and All split     | mAP:27.00, Recall@50:16.84, Recall@100:19.67
+[2023-07-30 17:15:34,691][train.py] SGDet and Novel split   | mAP:15.47, Recall@50:16.86, Recall@100:19.01
+[2023-07-30 17:16:39,089][train.py] PredCls and All split   | mAP:37.21, Recall@50:30.07, Recall@100:37.25
+[2023-07-30 17:17:41,590][train.py] PredCls and Novel split | mAP:20.25, Recall@50:29.92, Recall@100:37.36
+[2023-07-30 17:17:41,590][train.py] Mean mAP: 24.98562932655203, Best Mean mAP: 25.153597966889816
+[2023-07-30 17:17:41,590][train.py] Training data from vidvrd...
+[2023-07-30 17:32:44,355][train.py] Epoch: [10] 	 LR: [0.001] 	 Avg Train Loss:  0.0079
+[2023-07-30 17:34:43,114][train.py] SGDet and All split     | mAP:26.97, Recall@50:16.59, Recall@100:19.65
+[2023-07-30 17:36:40,477][train.py] SGDet and Novel split   | mAP:16.29, Recall@50:17.36, Recall@100:18.68
+[2023-07-30 17:37:43,626][train.py] PredCls and All split   | mAP:37.28, Recall@50:30.28, Recall@100:37.35
+[2023-07-30 17:38:45,625][train.py] PredCls and Novel split | mAP:20.55, Recall@50:30.25, Recall@100:37.19
+[2023-07-30 17:38:45,626][train.py] Mean mAP: 25.272743715480228, Best Mean mAP: 25.153597966889816
+[2023-07-30 17:38:47,211][train.py] Training data from vidvrd...
+[2023-07-30 17:53:58,172][train.py] Epoch: [11] 	 LR: [0.001] 	 Avg Train Loss:  0.0078
+[2023-07-30 17:55:58,603][train.py] SGDet and All split     | mAP:27.06, Recall@50:16.71, Recall@100:19.61
+[2023-07-30 17:57:56,321][train.py] SGDet and Novel split   | mAP:15.99, Recall@50:16.69, Recall@100:18.68
+[2023-07-30 17:59:00,197][train.py] PredCls and All split   | mAP:38.08, Recall@50:30.47, Recall@100:37.46
+[2023-07-30 18:00:03,246][train.py] PredCls and Novel split | mAP:21.14, Recall@50:28.76, Recall@100:36.86
+[2023-07-30 18:00:03,247][train.py] Mean mAP: 25.56927516853405, Best Mean mAP: 25.272743715480228
+[2023-07-30 18:00:04,834][train.py] Training data from vidvrd...
+[2023-07-30 18:15:13,453][train.py] Epoch: [12] 	 LR: [0.001] 	 Avg Train Loss:  0.0079
+[2023-07-30 18:17:12,425][train.py] SGDet and All split     | mAP:27.14, Recall@50:16.81, Recall@100:19.54
+[2023-07-30 18:19:10,251][train.py] SGDet and Novel split   | mAP:15.43, Recall@50:15.70, Recall@100:18.18
+[2023-07-30 18:20:13,925][train.py] PredCls and All split   | mAP:37.55, Recall@50:30.22, Recall@100:37.13
+[2023-07-30 18:21:17,297][train.py] PredCls and Novel split | mAP:20.57, Recall@50:29.09, Recall@100:36.03
+[2023-07-30 18:21:17,297][train.py] Mean mAP: 25.174496153084213, Best Mean mAP: 25.56927516853405
+[2023-07-30 18:21:17,298][train.py] Training data from vidvrd...
+[2023-07-30 18:36:26,287][train.py] Epoch: [13] 	 LR: [0.001] 	 Avg Train Loss:  0.0077
+[2023-07-30 18:38:26,710][train.py] SGDet and All split     | mAP:26.97, Recall@50:16.73, Recall@100:19.61
+[2023-07-30 18:40:25,968][train.py] SGDet and Novel split   | mAP:16.17, Recall@50:16.20, Recall@100:18.35
+[2023-07-30 18:41:30,166][train.py] PredCls and All split   | mAP:37.59, Recall@50:29.95, Recall@100:37.19
+[2023-07-30 18:42:32,732][train.py] PredCls and Novel split | mAP:21.01, Recall@50:28.60, Recall@100:36.69
+[2023-07-30 18:42:32,732][train.py] Mean mAP: 25.434038771889643, Best Mean mAP: 25.56927516853405
+[2023-07-30 18:42:32,732][train.py] Training data from vidvrd...
+[2023-07-30 18:57:39,443][train.py] Epoch: [14] 	 LR: [0.001] 	 Avg Train Loss:  0.0074
+[2023-07-30 18:59:37,939][train.py] SGDet and All split     | mAP:26.65, Recall@50:16.79, Recall@100:19.59
+[2023-07-30 19:01:35,398][train.py] SGDet and Novel split   | mAP:15.18, Recall@50:16.53, Recall@100:18.68
+[2023-07-30 19:02:39,427][train.py] PredCls and All split   | mAP:37.66, Recall@50:30.47, Recall@100:37.15
+[2023-07-30 19:03:41,600][train.py] PredCls and Novel split | mAP:20.50, Recall@50:30.41, Recall@100:37.69
+[2023-07-30 19:03:41,600][train.py] Mean mAP: 24.997137096092857, Best Mean mAP: 25.56927516853405
+[2023-07-30 19:03:41,601][train.py] Training data from vidvrd...
+[2023-07-30 19:18:48,771][train.py] Epoch: [15] 	 LR: [0.0001] 	 Avg Train Loss:  0.0076
+[2023-07-30 19:20:47,470][train.py] SGDet and All split     | mAP:26.73, Recall@50:16.71, Recall@100:19.61
+[2023-07-30 19:22:44,571][train.py] SGDet and Novel split   | mAP:15.31, Recall@50:16.36, Recall@100:18.68
+[2023-07-30 19:23:47,818][train.py] PredCls and All split   | mAP:37.37, Recall@50:30.40, Recall@100:37.48
+[2023-07-30 19:24:49,866][train.py] PredCls and Novel split | mAP:20.53, Recall@50:29.75, Recall@100:37.85
+[2023-07-30 19:24:49,866][train.py] Mean mAP: 24.98551550595814, Best Mean mAP: 25.56927516853405
+[2023-07-30 19:24:49,867][train.py] Training data from vidvrd...
+[2023-07-30 19:39:57,077][train.py] Epoch: [16] 	 LR: [0.0001] 	 Avg Train Loss:  0.0073
+[2023-07-30 19:41:55,740][train.py] SGDet and All split     | mAP:26.93, Recall@50:16.81, Recall@100:19.69
+[2023-07-30 19:43:53,773][train.py] SGDet and Novel split   | mAP:15.36, Recall@50:16.03, Recall@100:19.34
+[2023-07-30 19:44:56,898][train.py] PredCls and All split   | mAP:37.48, Recall@50:30.51, Recall@100:37.44
+[2023-07-30 19:45:58,835][train.py] PredCls and Novel split | mAP:20.61, Recall@50:29.26, Recall@100:37.52
+[2023-07-30 19:45:58,835][train.py] Mean mAP: 25.09712394885889, Best Mean mAP: 25.56927516853405
+[2023-07-30 19:45:58,835][train.py] Training data from vidvrd...
+[2023-07-30 20:01:06,024][train.py] Epoch: [17] 	 LR: [0.0001] 	 Avg Train Loss:  0.0070
+[2023-07-30 20:03:04,457][train.py] SGDet and All split     | mAP:26.73, Recall@50:16.79, Recall@100:19.48
+[2023-07-30 20:05:01,676][train.py] SGDet and Novel split   | mAP:15.15, Recall@50:16.36, Recall@100:18.84
+[2023-07-30 20:06:04,896][train.py] PredCls and All split   | mAP:37.60, Recall@50:30.28, Recall@100:37.19
+[2023-07-30 20:07:06,895][train.py] PredCls and Novel split | mAP:20.17, Recall@50:29.59, Recall@100:37.52
+[2023-07-30 20:07:06,896][train.py] Mean mAP: 24.909271564869158, Best Mean mAP: 25.56927516853405
+[2023-07-30 20:07:06,896][train.py] Training data from vidvrd...
+[2023-07-30 20:22:14,011][train.py] Epoch: [18] 	 LR: [0.0001] 	 Avg Train Loss:  0.0074
+[2023-07-30 20:24:15,104][train.py] SGDet and All split     | mAP:26.68, Recall@50:16.67, Recall@100:19.44
+[2023-07-30 20:26:14,269][train.py] SGDet and Novel split   | mAP:15.08, Recall@50:16.36, Recall@100:19.01
+[2023-07-30 20:27:18,422][train.py] PredCls and All split   | mAP:37.55, Recall@50:30.34, Recall@100:37.27
+[2023-07-30 20:28:21,478][train.py] PredCls and Novel split | mAP:20.46, Recall@50:29.09, Recall@100:37.36
+[2023-07-30 20:28:21,478][train.py] Mean mAP: 24.942799088976617, Best Mean mAP: 25.56927516853405
+[2023-07-30 20:28:21,479][train.py] Training data from vidvrd...
+[2023-07-30 20:43:29,952][train.py] Epoch: [19] 	 LR: [0.0001] 	 Avg Train Loss:  0.0071
+[2023-07-30 20:45:29,526][train.py] SGDet and All split     | mAP:26.61, Recall@50:16.69, Recall@100:19.44
+[2023-07-30 20:47:29,456][train.py] SGDet and Novel split   | mAP:14.61, Recall@50:16.69, Recall@100:18.51
+[2023-07-30 20:48:33,262][train.py] PredCls and All split   | mAP:37.51, Recall@50:30.38, Recall@100:37.25
+[2023-07-30 20:49:35,753][train.py] PredCls and Novel split | mAP:20.43, Recall@50:29.59, Recall@100:37.36
+[2023-07-30 20:49:35,753][train.py] Mean mAP: 24.79075873684065, Best Mean mAP: 25.56927516853405
+[2023-07-30 20:49:35,754][train.py] Training data from vidvrd...
+[2023-07-30 21:04:42,178][train.py] Epoch: [20] 	 LR: [1e-05] 	 Avg Train Loss:  0.0073
+[2023-07-30 21:06:42,180][train.py] SGDet and All split     | mAP:26.93, Recall@50:16.79, Recall@100:19.52
+[2023-07-30 21:08:40,298][train.py] SGDet and Novel split   | mAP:14.43, Recall@50:16.53, Recall@100:18.84
+[2023-07-30 21:09:44,205][train.py] PredCls and All split   | mAP:37.58, Recall@50:30.13, Recall@100:37.25
+[2023-07-30 21:10:46,746][train.py] PredCls and Novel split | mAP:19.95, Recall@50:29.09, Recall@100:37.19
+[2023-07-30 21:10:46,746][train.py] Mean mAP: 24.72441517314551, Best Mean mAP: 25.56927516853405
+[2023-07-30 21:10:46,747][train.py] Training data from vidvrd...
+[2023-07-30 21:25:54,975][train.py] Epoch: [21] 	 LR: [1e-05] 	 Avg Train Loss:  0.0077
+[2023-07-30 21:27:54,704][train.py] SGDet and All split     | mAP:26.85, Recall@50:16.77, Recall@100:19.44
+[2023-07-30 21:29:53,684][train.py] SGDet and Novel split   | mAP:14.36, Recall@50:16.53, Recall@100:18.68
+[2023-07-30 21:30:57,392][train.py] PredCls and All split   | mAP:37.81, Recall@50:30.16, Recall@100:37.23
+[2023-07-30 21:32:00,079][train.py] PredCls and Novel split | mAP:20.01, Recall@50:28.93, Recall@100:37.02
+[2023-07-30 21:32:00,080][train.py] Mean mAP: 24.75762260405461, Best Mean mAP: 25.56927516853405
+[2023-07-30 21:32:00,080][train.py] Training data from vidvrd...
+[2023-07-30 21:47:08,315][train.py] Epoch: [22] 	 LR: [1e-05] 	 Avg Train Loss:  0.0076
+[2023-07-30 21:49:08,080][train.py] SGDet and All split     | mAP:26.79, Recall@50:16.75, Recall@100:19.46
+[2023-07-30 21:51:06,804][train.py] SGDet and Novel split   | mAP:14.36, Recall@50:16.53, Recall@100:18.68
+[2023-07-30 21:52:10,696][train.py] PredCls and All split   | mAP:37.79, Recall@50:30.20, Recall@100:37.27
+[2023-07-30 21:53:14,059][train.py] PredCls and Novel split | mAP:19.89, Recall@50:28.76, Recall@100:37.19
+[2023-07-30 21:53:14,059][train.py] Mean mAP: 24.706930550079385, Best Mean mAP: 25.56927516853405
+[2023-07-30 21:53:14,060][train.py] Training data from vidvrd...
+[2023-07-30 22:08:22,577][train.py] Epoch: [23] 	 LR: [1e-05] 	 Avg Train Loss:  0.0072
+[2023-07-30 22:10:22,384][train.py] SGDet and All split     | mAP:26.72, Recall@50:16.67, Recall@100:19.44
+[2023-07-30 22:12:20,523][train.py] SGDet and Novel split   | mAP:14.35, Recall@50:16.53, Recall@100:18.68
+[2023-07-30 22:13:24,393][train.py] PredCls and All split   | mAP:37.83, Recall@50:30.20, Recall@100:37.25
+[2023-07-30 22:14:26,763][train.py] PredCls and Novel split | mAP:20.04, Recall@50:29.09, Recall@100:36.86
+[2023-07-30 22:14:26,763][train.py] Mean mAP: 24.73311157376954, Best Mean mAP: 25.56927516853405
+[2023-07-30 22:14:26,764][train.py] Training data from vidvrd...
+[2023-07-30 22:29:34,796][train.py] Epoch: [24] 	 LR: [1e-05] 	 Avg Train Loss:  0.0072
+[2023-07-30 22:31:34,206][train.py] SGDet and All split     | mAP:26.73, Recall@50:16.75, Recall@100:19.46
+[2023-07-30 22:33:33,149][train.py] SGDet and Novel split   | mAP:14.36, Recall@50:16.69, Recall@100:18.84
+[2023-07-30 22:34:37,065][train.py] PredCls and All split   | mAP:37.82, Recall@50:30.18, Recall@100:37.19
+[2023-07-30 22:35:39,424][train.py] PredCls and Novel split | mAP:20.02, Recall@50:28.93, Recall@100:36.86
+[2023-07-30 22:35:39,424][train.py] Mean mAP: 24.731419474258896, Best Mean mAP: 25.56927516853405
+[2023-07-30 22:35:39,425][train.py] Training data from vidvrd...
+[2023-07-30 22:50:47,601][train.py] Epoch: [25] 	 LR: [1.0000000000000002e-06] 	 Avg Train Loss:  0.0069
+[2023-07-30 22:52:46,920][train.py] SGDet and All split     | mAP:26.84, Recall@50:16.67, Recall@100:19.44
+[2023-07-30 22:54:45,608][train.py] SGDet and Novel split   | mAP:14.33, Recall@50:16.53, Recall@100:18.84
+[2023-07-30 22:55:49,280][train.py] PredCls and All split   | mAP:37.88, Recall@50:30.22, Recall@100:37.27
+[2023-07-30 22:56:51,694][train.py] PredCls and Novel split | mAP:20.01, Recall@50:29.09, Recall@100:36.86
+[2023-07-30 22:56:51,694][train.py] Mean mAP: 24.765420984614934, Best Mean mAP: 25.56927516853405
+[2023-07-30 22:56:51,695][train.py] Training data from vidvrd...
+[2023-07-30 23:12:00,538][train.py] Epoch: [26] 	 LR: [1.0000000000000002e-06] 	 Avg Train Loss:  0.0073
+[2023-07-30 23:13:59,961][train.py] SGDet and All split     | mAP:26.85, Recall@50:16.65, Recall@100:19.44
+[2023-07-30 23:15:58,789][train.py] SGDet and Novel split   | mAP:14.34, Recall@50:16.53, Recall@100:18.84
+[2023-07-30 23:17:03,230][train.py] PredCls and All split   | mAP:37.88, Recall@50:30.22, Recall@100:37.31
+[2023-07-30 23:18:05,662][train.py] PredCls and Novel split | mAP:20.00, Recall@50:28.93, Recall@100:36.86
+[2023-07-30 23:18:05,662][train.py] Mean mAP: 24.766463413691135, Best Mean mAP: 25.56927516853405
+[2023-07-30 23:18:05,663][train.py] Training data from vidvrd...
+[2023-07-30 23:33:13,755][train.py] Epoch: [27] 	 LR: [1.0000000000000002e-06] 	 Avg Train Loss:  0.0069
+[2023-07-30 23:35:13,666][train.py] SGDet and All split     | mAP:26.85, Recall@50:16.65, Recall@100:19.44
+[2023-07-30 23:37:12,185][train.py] SGDet and Novel split   | mAP:14.34, Recall@50:16.53, Recall@100:18.68
+[2023-07-30 23:38:15,965][train.py] PredCls and All split   | mAP:37.88, Recall@50:30.20, Recall@100:37.23
+[2023-07-30 23:39:18,442][train.py] PredCls and Novel split | mAP:20.00, Recall@50:28.93, Recall@100:36.86
+[2023-07-30 23:39:18,443][train.py] Mean mAP: 24.766917146158413, Best Mean mAP: 25.56927516853405
+[2023-07-30 23:39:18,443][train.py] Training data from vidvrd...
+[2023-07-30 23:54:25,019][train.py] Epoch: [28] 	 LR: [1.0000000000000002e-06] 	 Avg Train Loss:  0.0071
+[2023-07-30 23:56:24,081][train.py] SGDet and All split     | mAP:26.85, Recall@50:16.67, Recall@100:19.44
+[2023-07-30 23:58:22,427][train.py] SGDet and Novel split   | mAP:14.34, Recall@50:16.53, Recall@100:18.68
+[2023-07-30 23:59:26,992][train.py] PredCls and All split   | mAP:37.86, Recall@50:30.18, Recall@100:37.27
+[2023-07-31 00:00:29,377][train.py] PredCls and Novel split | mAP:20.00, Recall@50:28.76, Recall@100:36.86
+[2023-07-31 00:00:29,377][train.py] Mean mAP: 24.76200238804483, Best Mean mAP: 25.56927516853405
+[2023-07-31 00:00:29,377][train.py] Training data from vidvrd...
+[2023-07-31 00:15:34,653][train.py] Epoch: [29] 	 LR: [1.0000000000000002e-06] 	 Avg Train Loss:  0.0075
+[2023-07-31 00:17:34,240][train.py] SGDet and All split     | mAP:26.85, Recall@50:16.67, Recall@100:19.44
+[2023-07-31 00:19:32,465][train.py] SGDet and Novel split   | mAP:14.34, Recall@50:16.53, Recall@100:18.68
+[2023-07-31 00:20:36,254][train.py] PredCls and All split   | mAP:37.87, Recall@50:30.18, Recall@100:37.23
+[2023-07-31 00:21:38,664][train.py] PredCls and Novel split | mAP:20.01, Recall@50:28.76, Recall@100:36.86
+[2023-07-31 00:21:38,664][train.py] Mean mAP: 24.766154052344316, Best Mean mAP: 25.56927516853405
+[2023-07-31 00:21:38,664][train.py] Training data from vidvrd...
+[2023-07-31 00:36:45,306][train.py] Epoch: [30] 	 LR: [1.0000000000000002e-06] 	 Avg Train Loss:  0.0074
+[2023-07-31 00:38:45,700][train.py] SGDet and All split     | mAP:26.86, Recall@50:16.69, Recall@100:19.44
+[2023-07-31 00:40:44,251][train.py] SGDet and Novel split   | mAP:14.34, Recall@50:16.53, Recall@100:18.84
+[2023-07-31 00:41:48,032][train.py] PredCls and All split   | mAP:37.85, Recall@50:30.20, Recall@100:37.27
+[2023-07-31 00:42:50,517][train.py] PredCls and Novel split | mAP:20.01, Recall@50:28.76, Recall@100:36.86
+[2023-07-31 00:42:50,517][train.py] Mean mAP: 24.763484777866466, Best Mean mAP: 25.56927516853405
+[2023-07-31 00:42:50,520][train.py] Best Epoch: 11, mAP List: [27.06301867068693, 15.98601942177334, 38.083914656578386, 21.14414792509755]
