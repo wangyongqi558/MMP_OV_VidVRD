@@ -19,5 +19,5 @@ conda activate MMP_OV_VidVRD
 
 ### Data
 
-**Annotations**
+**Annotations**  
 The frame-annotations we used can be downloaded from [link](https://xdshang.github.io/docs/imagenet-vidvrd.html).
