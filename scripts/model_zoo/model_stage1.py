@@ -1,5 +1,5 @@
 import sys
-sys.path.append('/media/sda1/jixf/VidVRD-baseline/scripts/') #your scripts path
+sys.path.append('') #your scripts path
 
 from os.path import join
 import pickle
