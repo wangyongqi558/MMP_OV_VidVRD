@@ -32,3 +32,9 @@ Run the following commands for evaluation:
 cd scripts
 bash test_vidvrd_openvoc.sh
 ```
+Run the following commands for training:
+```
+#Train for VidVRD
+cd scripts
+bash train_vidvrd_openvoc.sh --stage2
+```
