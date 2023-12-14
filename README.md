@@ -15,3 +15,5 @@ You can also run the following commands to prepare the conda environment.
 bash conda.sh
 conda activate MMP_OV_VidVRD
 ```
+## Preparation
+    #Annotations
