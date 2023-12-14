@@ -10,7 +10,7 @@ This is the implementation for the paper "Multi-modal Prompting for Open-vocabul
 - regex
   
 You can also run the following commands to prepare the conda environment.
-```python
+```bash
 #preparing environment
 bash conda.sh
 conda activate MMP_OV_VidVRD
