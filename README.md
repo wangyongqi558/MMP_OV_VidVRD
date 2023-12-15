@@ -20,14 +20,14 @@ Our focus is on open-vocabulary relationship detection. So we extract the featur
 - In the first stage, we train only the spatio-temporal modeling module for vision, using manually crafted prompts on the text side.
 - In the second stage, we freeze the visual part and train the visual-guided prompt module.
 ### VidVRD Dataset
-#### Annotations
+#### Annotation
 The frame-annotations we use can be downloaded from [link](https://xdshang.github.io/docs/imagenet-vidvrd.html). Please save them to the  `dataset/vidvrd/anno` folder. 
 #### Data
 The category information, trajectory information and gt relation of testing we use are available in the `dataset/vidvrd/data` folder. 
-#### Features
+#### Feature
 Based on the existing object trajectories, we match objects into pairs and extract features over the duration of these object pairs. We utilize visual features extracted from video frames, object bounding box features, and features extracted by pre-trained model CLIP. All the features we use can be downloaded from [link](https://pan.baidu.com/s/1h1A2Qfcj6oEW8VJDYKyRlA?pwd=a8s6).Please save them to the  `dataset/vidvrd/feature` folder. 
 #### Model
-Our trained model are provided in [link](https://pan.baidu.com/s/1is8cNDm0_Ni3XeQawGQRwg?pwd=9pe2). Please download them to the `dataset/vidvrd/model` folder.  
+Our trained models are provided in [link](https://pan.baidu.com/s/1is8cNDm0_Ni3XeQawGQRwg?pwd=9pe2). Please download them to the `dataset/vidvrd/model` folder.  
 #### Format
 The dataset should be formatted as, e.g.,
 ```
