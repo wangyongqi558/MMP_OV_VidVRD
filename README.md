@@ -51,7 +51,7 @@ dataset/
 |   vidor/--------------------------------------------------------------------
 |   |   ...-------------------------------------------------------------------
 ```
-### Quick Start
+### Train
 Run the following commands for evaluation:
 ```
 #Evaluate for VidVRD
