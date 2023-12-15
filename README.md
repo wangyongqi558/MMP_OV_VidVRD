@@ -15,7 +15,7 @@ You can also run the following commands to prepare the conda environment.
 bash conda.sh
 conda activate MMP_OV_VidVRD
 ```
-## Train & eval for VidVRD dataset
+## Quick Start
 Our focus is on open-vocabulary relationship detection. So we extract the features of object pairs and provide open-vocabulary relationship detection code which conducts training in two stages.  
 - In the first stage, we train only the spatio-temporal modeling module for vision, using manually crafted prompts on the text side.
 - In the second stage, we freeze the visual part and train the visual-guided prompt module.
