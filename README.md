@@ -17,8 +17,8 @@ conda activate MMP_OV_VidVRD
 ```
 ## Quick Start
 Our focus is on open-vocabulary relationship detection. So we extract the features of object pairs and provide open-vocabulary relationship detection code which conducts training in two stages.  
-- In the first stage, we train only the spatio-temporal modeling module for vision, using manually crafted prompts on the text side.
-- In the second stage, we freeze the visual part and train the visual-guided prompt module.
+- In the first stage, we train only the spatio-temporal modeling module for vision side, using manually crafted prompts on the text side.
+- In the second stage, we freeze the vision part and train the vision-guided prompt module.
 ### VidVRD Dataset
 #### Annotation
 The frame-annotations we use can be downloaded from [link](https://xdshang.github.io/docs/imagenet-vidvrd.html). Please save them to the  `dataset/vidvrd/anno` folder. 
