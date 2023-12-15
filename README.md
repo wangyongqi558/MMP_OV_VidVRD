@@ -67,3 +67,4 @@ bash train_vidvrd_openvoc.sh --stage2
 #Evaluate for VidVRD
 bash test_vidvrd_openvoc.sh
 ```
+## Citation
