@@ -26,7 +26,8 @@ The frame-annotations we use can be downloaded from [link](https://xdshang.githu
 The category information, trajectory information and gt relation of testing we use are available in the `dataset/vidvrd/data` folder. 
 #### Feature
 Based on the existing object trajectories, we match objects into pairs and extract features over the duration of these object pairs. We utilize visual features extracted from video frames, object bounding box features, and features extracted by pre-trained model CLIP(ViT-B/16). All the features we use can be downloaded from [link](https://pan.baidu.com/s/1h1A2Qfcj6oEW8VJDYKyRlA?pwd=a8s6). Please save them to the  `dataset/vidvrd/feature` folder. 
-Recently, we uploaded feature extraction file which can be downloaded via the path 'dataset/vidvrd(vidor)/data'. You can use the 'feature.sh' file to extract features.
+
+Recently, we uploaded feature extraction files which can be downloaded via the path 'scripts/features.py' and 'scripts/features.sh'. You can download relevant data via the path 'dataset/vidvrd(vidor)/data' and use the feature extraction files to extract features.
 #### Format
 The dataset should be formatted as, e.g.,
 ```
