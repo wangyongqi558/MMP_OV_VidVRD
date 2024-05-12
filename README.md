@@ -70,3 +70,15 @@ bash train_vidvrd_openvoc.sh --stage2
 bash test_vidvrd_openvoc.sh
 ```
 ## Citation
+```
+@inproceedings{yang2024multi,
+  title={Multi-Modal Prompting for Open-Vocabulary Video Visual Relationship Detection},
+  author={Yang, Shuo and Wang, Yongqi and Ji, Xiaofeng and Wu, Xinxiao},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={38},
+  number={7},
+  pages={6513--6521},
+  year={2024}
+}
+
+```
